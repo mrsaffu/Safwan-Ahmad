@@ -1,6 +1,6 @@
 /*
 
-Q.2: Problem-2: With a single integer as the input, generate the following until a = x [series of numbers as shown in below examples]
+Problem-2: With a single integer as the input, generate the following until a = x [series of numbers as shown in below examples]
   Output: (examples)
     1) input a = 1, then output : 1
     2) input a = 2, then output : 1, 3

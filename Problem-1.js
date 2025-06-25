@@ -1,10 +1,10 @@
 /* 
-Q.1: Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
+Problem-2s: Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
   Calculator inputs :> ‘a’, ‘b’ and ‘type of operation’
   Datatype :> ‘a’ = double, ‘b’ = double, ‘type of operation’ = string
   */
 
-  class Calculator {
+class Calculator {
     constructor(a, b, operation) {
         this.a = a;
         this.b = b;
@@ -28,5 +28,12 @@ Q.1: Create a small calculator which performs operations such as Addition, Subtr
 }
 
 // Example usage:
-const calc = new Calculator(10, 5, 'divide');
-console.log('Result:', calc.calculate());
+const add = new Calculator(10, 20, 'add')
+const sub = new Calculator(100, 80, 'subtract')
+const mult = new Calculator(10, 8, 'multiply')
+const div = new Calculator(10, 5, 'divide');
+
+console.log(`Add : ${add.a} + ${add.b} = ${add.calculate()}`);
+console.log(`Sub : ${sub.a} - ${sub.b} = ${sub.calculate()}`);
+console.log(`Mult : ${mult.a} * ${mult.b} = ${mult.calculate()}`);
+console.log(`Divide : ${div.a} / ${div.b} = ${div.calculate()}`);
